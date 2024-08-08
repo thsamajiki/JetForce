@@ -111,7 +111,7 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="1945_First.h">
+    <ClInclude Include="JetForce.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
@@ -277,7 +277,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="1945_First.rc">
+    <ResourceCompile Include="JetForce.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -285,7 +285,7 @@
     <Image Include="small.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="1945_First.ico">
+    <Image Include="JetForce.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
