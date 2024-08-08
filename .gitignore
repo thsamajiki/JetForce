@@ -71,6 +71,9 @@ dkms.conf
 
 # Executables
 
+# Caches
+.vs/
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
