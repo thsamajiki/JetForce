@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e2df6a64-81f7-47c7-ba4f-fc295cf92913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01.Header">
+      <UniqueIdentifier>{90cef60e-1cc5-41ef-aa74-9e74d802ccb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02.Core">
+      <UniqueIdentifier>{8ab3bb98-5b7e-42dd-8fce-70731aae087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03.InputManager">
+      <UniqueIdentifier>{70815ac8-b10d-482e-b58f-ae7a6e93e867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04.EventManager">
+      <UniqueIdentifier>{9e7127ba-d342-4198-b272-dd9a817cc30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05.TimeManager">
+      <UniqueIdentifier>{21fc5bf7-cfc5-4c67-b143-fc37763f111c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06.ResourceManager">
+      <UniqueIdentifier>{77738b3d-a401-4ca9-9682-fc688856e927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07.CollisionManager">
+      <UniqueIdentifier>{e2c884b7-beb6-4f0f-89e6-63aec39dedd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08.StageManager">
+      <UniqueIdentifier>{4b0200c0-9935-4c59-aa01-e511d6150b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object">
+      <UniqueIdentifier>{12840815-cd25-445c-b6b3-b549a2e8b3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\10.Stage">
+      <UniqueIdentifier>{24dcde3e-87ff-43d2-b4b3-f2d0973b596e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\11.Component">
+      <UniqueIdentifier>{c32617f1-035d-4c04-96c9-7823c5ba4229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\12.Layer">
+      <UniqueIdentifier>{4996d79e-0db9-4d83-9e66-95a7d8853ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06.ResourceManager\Resource">
+      <UniqueIdentifier>{d48ac507-1ca1-4e9c-a587-729df47c6c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06.ResourceManager\Textrue">
+      <UniqueIdentifier>{74e4ed9d-7cdf-4b53-9074-da3c44739763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\10.Stage\Stage">
+      <UniqueIdentifier>{c1ea8897-1be3-449e-abf3-8e29162cd036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\10.Stage\IntroStage">
+      <UniqueIdentifier>{718632a1-d940-4bb8-a29a-aed62123b5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Object">
+      <UniqueIdentifier>{2fb95a1e-fa7a-43bc-b9d3-eca988265699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Player">
+      <UniqueIdentifier>{35381645-9012-4463-9e9a-6c9e583285ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Enemy">
+      <UniqueIdentifier>{ac856a22-b471-4210-96a2-2fc3306992db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Obstacle">
+      <UniqueIdentifier>{828e3fa0-9dd5-4f8b-a491-57e749b270a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Item">
+      <UniqueIdentifier>{ac5cfbca-7bed-4a02-a4bc-ef5db34613e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\10.Stage\PlayStage">
+      <UniqueIdentifier>{3670135f-84bd-4b71-845a-03feace3618d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\12.Layer\Layer">
+      <UniqueIdentifier>{eb78f8b6-19dc-45d0-b5c5-3eb05ae12f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\12.Layer\ObjLayer">
+      <UniqueIdentifier>{ec1cd0c9-2586-468c-9068-e9cbf3f5adfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\09.Object\Bullet">
+      <UniqueIdentifier>{97fc4762-5202-4917-80e7-b602b92eab60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\11.Component\Component">
+      <UniqueIdentifier>{b47cd55d-9d77-4bdb-83a9-1a3b36095b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\11.Component\Collider">
+      <UniqueIdentifier>{039db275-5a59-4b2c-b2d7-414aa3d9710c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\12.Layer\UILayer">
+      <UniqueIdentifier>{409e06e4-9ffa-415c-b705-c24240666b47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JetForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreManager.h">
+      <Filter>Game\02.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Game\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Game\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Game\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game\03.InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\06.ResourceManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Game\06.ResourceManager\Textrue</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Game\06.ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Game\05.TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Game\04.EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game\10.Stage\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroStage.h">
+      <Filter>Game\10.Stage\IntroStage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Game\08.StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Game\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Game\09.Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\09.Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayStage1.h">
+      <Filter>Game\10.Stage\PlayStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Game\12.Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLayer.h">
+      <Filter>Game\12.Layer\ObjLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBullet.h">
+      <Filter>Game\09.Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Game\09.Object\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Game\11.Component\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Game\11.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer.h">
+      <Filter>Game\12.Layer\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Game\07.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\09.Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\09.Object\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreManager.cpp">
+      <Filter>Game\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game\03.InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\06.ResourceManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Game\06.ResourceManager\Textrue</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Game\06.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Game\05.TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Game\04.EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game\10.Stage\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroStage.cpp">
+      <Filter>Game\10.Stage\IntroStage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Game\08.StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>Game\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Game\09.Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\09.Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayStage1.cpp">
+      <Filter>Game\10.Stage\PlayStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Game\12.Layer\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLayer.cpp">
+      <Filter>Game\12.Layer\ObjLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBullet.cpp">
+      <Filter>Game\09.Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Game\09.Object\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Game\11.Component\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Game\11.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer.cpp">
+      <Filter>Game\12.Layer\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Game\07.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\09.Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\09.Object\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JetForce.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="JetForce.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
